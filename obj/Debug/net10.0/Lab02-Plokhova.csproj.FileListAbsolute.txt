@@ -12,3 +12,4 @@ C:\Users\Student_12\Lab02-Plokhova\obj\Debug\net10.0\refint\Lab02-Plokhova.dll
 C:\Users\Student_12\Lab02-Plokhova\obj\Debug\net10.0\Lab02-Plokhova.pdb
 C:\Users\Student_12\Lab02-Plokhova\obj\Debug\net10.0\Lab02-Plokhova.genruntimeconfig.cache
 C:\Users\Student_12\Lab02-Plokhova\obj\Debug\net10.0\ref\Lab02-Plokhova.dll
+C:\Users\Student_12\Lab02-Plokhova\obj\Debug\net10.0\Lab02-Plokhova.sourcelink.json
