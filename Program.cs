@@ -139,6 +139,18 @@ double weight = double.Parse(Console.ReadLine());
 double bmi = weight / (height * height);
 
 
+исп-
+Console.Write("Введите фамилию: ");
+string lastName = Console.ReadLine();
+
+Console.Write("Введите имя: ");
+string firstName = Console.ReadLine();
+
+char firstInitial = firstName[0];  
+
+Console.WriteLine($"{lastName} {firstInitial}.");
+
+
 
 
 
