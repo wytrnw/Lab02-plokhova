@@ -124,3 +124,22 @@ Console.WriteLine("Год рождения: " + year + " (в 2030 будет " +
 Console.WriteLine("Средний балл: " + gpa);
 Console.WriteLine("Балл >= 4.0: " + goodGpa);
 Console.WriteLine("Любимая буква: " + letter);
+
+
+
+
+
+
+Console.Write("Рост (м): ");
+double height = double.Parse(Console.ReadLine());
+
+Console.Write("Вес (кг): ");
+double weight = double.Parse(Console.ReadLine());
+
+double bmi = weight / (height * height);
+
+
+
+
+
+
