@@ -139,17 +139,34 @@ double weight = double.Parse(Console.ReadLine());
 double bmi = weight / (height * height);
 
 
-исп-
+
+
+
 Console.Write("Введите фамилию: ");
 string lastName = Console.ReadLine();
 
 Console.Write("Введите имя: ");
 string firstName = Console.ReadLine();
 
-char firstInitial = firstName[0];  
+char firstInitial = firstName[0];
 
 Console.WriteLine($"{lastName} {firstInitial}.");
 
+
+
+
+
+Console.Write("Введите целое число: ");
+int.TryParse(Console.ReadLine(), out int i);
+Console.WriteLine($"Целое число: {i}");
+
+Console.Write("Введите дробное число: ");
+double.TryParse(Console.ReadLine(), out double d);
+Console.WriteLine($"Дробное число: {d}");
+
+Console.Write("Введите дату (дд.мм.гггг): ");
+DateTime.TryParse(Console.ReadLine(), out DateTime dt);
+Console.WriteLine($"Дата: {dt:dd.MM.yyyy}");
 
 
 
